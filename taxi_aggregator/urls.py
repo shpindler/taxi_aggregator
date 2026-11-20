@@ -30,4 +30,6 @@ urlpatterns = [
     path("api/drivers/", include("drivers.urls")),
     path("api/passengers/", include("passengers.urls")),
     path("api/trips/", include("trips.urls")),
+    path("api/phone/", include("phone_verify.urls")),
+    path("", include("accounts.urls")),
 ]
